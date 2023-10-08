@@ -1,5 +1,6 @@
 #Domaca uloha vytvor pyramidu z hviezdičiek pomocou cyklu while.
 #!Nesmies pouzit cyklus for!
+#Zadaj najvyssi bod pyramidy do konštanty highest_point.
 
 highest_point = 8
 rows=0
