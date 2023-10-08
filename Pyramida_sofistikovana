@@ -1,0 +1,18 @@
+#Domaca uloha vytvor pyramidu z hviezdičiek pomocou cyklu while.
+#!Nesmies pouzit cyklus for!
+
+highest_point = 8
+rows=0
+
+while rows <= highest_point:
+    stars = "*" * rows
+    if rows <= highest_point:
+        rows += 1
+        print(stars, end="\n")
+
+while rows > 0:
+        rows -= 1
+        if rows == highest_point:
+            continue
+        stars = "*" * rows
+        print(stars, end="\n")
