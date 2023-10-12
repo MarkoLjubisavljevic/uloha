@@ -1,0 +1,22 @@
+max_number_in_row=8
+row=0
+
+while row <= max_number_in_row:
+    number = 1
+    while number<=row:
+        print(number, end="")
+        print(" ", end="")
+        number +=1
+    print()
+    row +=1
+
+row=max_number_in_row
+
+while row >0:
+    number=1
+    while number<row:
+        print(number, end="")
+        print(" ", end="")
+        number+=1
+    row-=1
+    print()
